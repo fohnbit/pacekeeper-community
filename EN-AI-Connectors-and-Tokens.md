@@ -3,7 +3,7 @@
 <!-- screenshot-plan: Use the corresponding anonymised DE connector captures
      or capture the same views with the English interface. -->
 
-[← Getting started](EN-Getting-Started) · [Contents](English) · [Next: Training planning →](EN-Training-Planning)
+[← Nutrition planning](EN-Nutrition-Planning) · [Contents](English) · [Next: Access and settings →](EN-Access-and-Settings)
 
 ## Connecting Claude.ai to PaceKeeper AI
 
@@ -69,4 +69,4 @@ own usage limits or charges may still apply. Once PaceKeeper AI is publicly
 available, subscriptions with a larger monthly token allowance are planned
 through the App Store and Play Store.
 
-[← Getting started](EN-Getting-Started) · [Contents](English) · [Next: Training planning →](EN-Training-Planning)
+[← Nutrition planning](EN-Nutrition-Planning) · [Contents](English) · [Next: Access and settings →](EN-Access-and-Settings)

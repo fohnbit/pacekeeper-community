@@ -1,6 +1,6 @@
 # Getting Started
 
-[← Contents](English) · [Next: AI connectors and tokens →](EN-AI-Connectors-and-Tokens)
+[← Contents](English) · [Next: Dashboard and app controls →](EN-App-Controls)
 
 ## Sign-in and first synchronisation
 
@@ -61,5 +61,4 @@ not a substitute for medical or nutritional advice.
 - **Settings → Setup assistant** opens profile setup again.
 - **Settings → Replay tutorial** repeats the short Dashboard introduction.
 
-[← Contents](English) · [Next: AI connectors and tokens →](EN-AI-Connectors-and-Tokens)
-
+[← Contents](English) · [Next: Dashboard and app controls →](EN-App-Controls)

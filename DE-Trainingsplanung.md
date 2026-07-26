@@ -6,7 +6,7 @@
   - Phasenliste mit Aktionen Phasen und Trainings
 -->
 
-[← KI-Connectoren](DE-KI-Connectoren-und-Token) · [Inhaltsverzeichnis](Deutsch) · [Weiter: Ernährungsplanung →](DE-Ernaehrungsplanung)
+[← Dashboard und Bedienung](DE-App-Bedienung) · [Inhaltsverzeichnis](Deutsch) · [Weiter: Ernährungsplanung →](DE-Ernaehrungsplanung)
 
 ## Richtige Reihenfolge
 
@@ -108,4 +108,4 @@ schreibt die vorgeschlagenen Änderungen, **Verwerfen** lässt den bestehenden
 Plan unverändert. Falls angeboten, macht **Rückgängig** die zuletzt angewendete
 Änderung rückgängig. Der Verlauf ist über das Verlaufssymbol erreichbar.
 
-[← KI-Connectoren](DE-KI-Connectoren-und-Token) · [Inhaltsverzeichnis](Deutsch) · [Weiter: Ernährungsplanung →](DE-Ernaehrungsplanung)
+[← Dashboard und Bedienung](DE-App-Bedienung) · [Inhaltsverzeichnis](Deutsch) · [Weiter: Ernährungsplanung →](DE-Ernaehrungsplanung)

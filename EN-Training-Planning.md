@@ -2,7 +2,7 @@
 
 <!-- screenshot-plan: Mirror the DE plan screenshots in English. -->
 
-[← AI connectors](EN-AI-Connectors-and-Tokens) · [Contents](English) · [Next: Nutrition planning →](EN-Nutrition-Planning)
+[← Dashboard and app controls](EN-App-Controls) · [Contents](English) · [Next: Nutrition planning →](EN-Nutrition-Planning)
 
 ## Correct sequence
 
@@ -101,4 +101,4 @@ the suggested changes; **Discard** leaves the existing plan unchanged. Where
 available, **Undo** reverts the most recently applied change. Open the history
 icon to review previous changes.
 
-[← AI connectors](EN-AI-Connectors-and-Tokens) · [Contents](English) · [Next: Nutrition planning →](EN-Nutrition-Planning)
+[← Dashboard and app controls](EN-App-Controls) · [Contents](English) · [Next: Nutrition planning →](EN-Nutrition-Planning)

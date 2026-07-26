@@ -2,7 +2,7 @@
 
 <!-- screenshot-plan: Mirror the DE nutrition screenshots in English. -->
 
-[← Training planning](EN-Training-Planning) · [Contents](English) · [Next: App controls →](EN-App-Controls)
+[← Training planning](EN-Training-Planning) · [Contents](English) · [Next: AI connectors and tokens →](EN-AI-Connectors-and-Tokens)
 
 ## Generate nutrition week by week
 
@@ -62,4 +62,4 @@ another shopping-list app manually.
 > through Claude or another external connector does not use PaceKeeper AI
 > tokens.
 
-[← Training planning](EN-Training-Planning) · [Contents](English) · [Next: App controls →](EN-App-Controls)
+[← Training planning](EN-Training-Planning) · [Contents](English) · [Next: AI connectors and tokens →](EN-AI-Connectors-and-Tokens)

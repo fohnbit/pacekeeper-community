@@ -5,7 +5,7 @@
   - Bring!-Einkaufslistenaktion ohne private Zutaten
 -->
 
-[← Trainingsplanung](DE-Trainingsplanung) · [Inhaltsverzeichnis](Deutsch) · [Weiter: App-Bedienung →](DE-App-Bedienung)
+[← Trainingsplanung](DE-Trainingsplanung) · [Inhaltsverzeichnis](Deutsch) · [Weiter: KI-Connectoren und Token →](DE-KI-Connectoren-und-Token)
 
 ## Ernährung wochenweise erzeugen
 
@@ -65,4 +65,4 @@ kopieren und manuell in eine andere Einkaufsliste einfügen.
 > verbraucht. Eine Erstellung über Claude oder einen anderen externen Connector
 > verbraucht keine PaceKeeper-AI-Token.
 
-[← Trainingsplanung](DE-Trainingsplanung) · [Inhaltsverzeichnis](Deutsch) · [Weiter: App-Bedienung →](DE-App-Bedienung)
+[← Trainingsplanung](DE-Trainingsplanung) · [Inhaltsverzeichnis](Deutsch) · [Weiter: KI-Connectoren und Token →](DE-KI-Connectoren-und-Token)

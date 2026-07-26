@@ -1,6 +1,6 @@
 # Erste Schritte
 
-[← Inhaltsverzeichnis](Deutsch) · [Weiter: KI-Connectoren und Token →](DE-KI-Connectoren-und-Token)
+[← Inhaltsverzeichnis](Deutsch) · [Weiter: Dashboard und Bedienung →](DE-App-Bedienung)
 
 ## Anmeldung und erste Synchronisierung
 
@@ -64,5 +64,4 @@ Pläne ersetzen keine medizinische oder ernährungsmedizinische Beratung.
 - **Einstellungen → Tutorial erneut anzeigen** wiederholt die kurze
   Dashboard-Einführung.
 
-[← Inhaltsverzeichnis](Deutsch) · [Weiter: KI-Connectoren und Token →](DE-KI-Connectoren-und-Token)
-
+[← Inhaltsverzeichnis](Deutsch) · [Weiter: Dashboard und Bedienung →](DE-App-Bedienung)

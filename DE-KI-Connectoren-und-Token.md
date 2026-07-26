@@ -5,7 +5,7 @@
   - Claude > Customize > Connectors mit PaceKeeper AI
 -->
 
-[← Erste Schritte](DE-Erste-Schritte) · [Inhaltsverzeichnis](Deutsch) · [Weiter: Trainingsplanung →](DE-Trainingsplanung)
+[← Ernährungsplanung](DE-Ernaehrungsplanung) · [Inhaltsverzeichnis](Deutsch) · [Weiter: Zugriffe und Einstellungen →](DE-Zugriffe-und-Einstellungen)
 
 ## Claude.ai mit PaceKeeper AI verbinden
 
@@ -79,4 +79,4 @@ Sobald PaceKeeper AI öffentlich verfügbar ist, sollen über App Store und Play
 Store Abonnements mit einem größeren monatlichen Token-Kontingent angeboten
 werden.
 
-[← Erste Schritte](DE-Erste-Schritte) · [Inhaltsverzeichnis](Deutsch) · [Weiter: Trainingsplanung →](DE-Trainingsplanung)
+[← Ernährungsplanung](DE-Ernaehrungsplanung) · [Inhaltsverzeichnis](Deutsch) · [Weiter: Zugriffe und Einstellungen →](DE-Zugriffe-und-Einstellungen)

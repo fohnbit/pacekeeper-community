@@ -6,7 +6,7 @@
   - Athletenansicht mit anonymisierten Charts
 -->
 
-[← Ernährungsplanung](DE-Ernaehrungsplanung) · [Inhaltsverzeichnis](Deutsch) · [Weiter: Zugriffe und Einstellungen →](DE-Zugriffe-und-Einstellungen)
+[← Erste Schritte](DE-Erste-Schritte) · [Inhaltsverzeichnis](Deutsch) · [Weiter: Trainingsplanung →](DE-Trainingsplanung)
 
 ## Hauptnavigation
 
@@ -104,4 +104,4 @@ Körperfett, VO₂max und eigene Diagramme erscheinen.
 Die Symbole können sich zwischen iOS, macOS und Android geringfügig
 unterscheiden.
 
-[← Ernährungsplanung](DE-Ernaehrungsplanung) · [Inhaltsverzeichnis](Deutsch) · [Weiter: Zugriffe und Einstellungen →](DE-Zugriffe-und-Einstellungen)
+[← Erste Schritte](DE-Erste-Schritte) · [Inhaltsverzeichnis](Deutsch) · [Weiter: Trainingsplanung →](DE-Trainingsplanung)

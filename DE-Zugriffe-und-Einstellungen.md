@@ -5,7 +5,7 @@
   - wichtigste Einstellungen
 -->
 
-[← App-Bedienung](DE-App-Bedienung) · [Inhaltsverzeichnis](Deutsch)
+[← KI-Connectoren und Token](DE-KI-Connectoren-und-Token) · [Inhaltsverzeichnis](Deutsch)
 
 ## Betreute Athleten und Freigaben
 
@@ -68,4 +68,4 @@ kann ihren Zugriff ebenfalls beenden oder eine offene Anfrage zurückziehen.
 Teile niemals Passwörter, private API-Schlüssel oder vollständige
 Zugangstoken.
 
-[← App-Bedienung](DE-App-Bedienung) · [Inhaltsverzeichnis](Deutsch)
+[← KI-Connectoren und Token](DE-KI-Connectoren-und-Token) · [Inhaltsverzeichnis](Deutsch)
