@@ -1,11 +1,11 @@
 <div align="center">
 
-# PaceKeeper
+# PaceKeeper AI
 
 ### Smarter trainieren. Besser planen. Fortschritt verstehen.
 
-Die zentrale Dokumentation zur PaceKeeper App<br>
-The central documentation for the PaceKeeper app
+Die zentrale Dokumentation zur PaceKeeper AI App<br>
+The central documentation for the PaceKeeper AI app
 
 ---
 
@@ -17,13 +17,23 @@ The central documentation for the PaceKeeper app
 
 ---
 
+> [!WARNING]
+> **Alpha-Version · Alpha version**<br>
+> PaceKeeper AI befindet sich in aktiver Entwicklung. Funktionen und Bedienung
+> können sich ändern. · PaceKeeper AI is under active development. Features and
+> workflows may change.
+
 ## Deutsch
 
-Willkommen im offiziellen Wiki der **PaceKeeper App**.
+Willkommen im offiziellen Wiki der **PaceKeeper AI App**.
 
-PaceKeeper unterstützt dich dabei, dein Training zu planen, deine Aktivitäten
+PaceKeeper AI unterstützt dich dabei, dein Training zu planen, deine Aktivitäten
 und Leistungsdaten im Blick zu behalten und deine sportliche Entwicklung
 nachvollziehbar zu machen.
+
+### Hilfe
+
+- [App-Hilfe: Einstieg, Funktionen und Symbole](App-Hilfe)
 
 ### Was du hier künftig findest
 
@@ -43,10 +53,14 @@ nachvollziehbar zu machen.
 
 ## English
 
-Welcome to the official **PaceKeeper App** wiki.
+Welcome to the official **PaceKeeper AI App** wiki.
 
-PaceKeeper helps you plan your training, keep track of activities and
+PaceKeeper AI helps you plan your training, keep track of activities and
 performance data, and better understand your athletic development over time.
+
+### Help
+
+- [App help: getting started, features, and icons](App-Hilfe#english)
 
 ### What you will find here
 
@@ -66,6 +80,6 @@ performance data, and better understand your athletic development over time.
 
 <div align="center">
 
-**PaceKeeper** · Private project documentation
+**PaceKeeper AI** · Private project documentation
 
 </div>
