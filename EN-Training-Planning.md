@@ -1,5 +1,7 @@
 # Training Planning
 
+<!-- screenshot-plan: Mirror the DE plan screenshots in English. -->
+
 [← AI connectors](EN-AI-Connectors-and-Tokens) · [Contents](English) · [Next: Nutrition planning →](EN-Nutrition-Planning)
 
 ## Correct sequence
@@ -100,4 +102,3 @@ available, **Undo** reverts the most recently applied change. Open the history
 icon to review previous changes.
 
 [← AI connectors](EN-AI-Connectors-and-Tokens) · [Contents](English) · [Next: Nutrition planning →](EN-Nutrition-Planning)
-

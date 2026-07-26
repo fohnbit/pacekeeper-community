@@ -1,5 +1,10 @@
 # Claude, ChatGPT und KI-Token
 
+<!-- screenshot-plan:
+  - Einstellungen > KI-Assistent verbinden mit anonymisiertem Einmalcode
+  - Claude > Customize > Connectors mit PaceKeeper AI
+-->
+
 [← Erste Schritte](DE-Erste-Schritte) · [Inhaltsverzeichnis](Deutsch) · [Weiter: Trainingsplanung →](DE-Trainingsplanung)
 
 ## Claude.ai mit PaceKeeper AI verbinden
@@ -75,4 +80,3 @@ Store Abonnements mit einem größeren monatlichen Token-Kontingent angeboten
 werden.
 
 [← Erste Schritte](DE-Erste-Schritte) · [Inhaltsverzeichnis](Deutsch) · [Weiter: Trainingsplanung →](DE-Trainingsplanung)
-

@@ -1,5 +1,11 @@
 # Trainingsplanung
 
+<!-- screenshot-plan:
+  - Meine Pläne und Neuer Plan
+  - Planeditor: Plan Daten, Events und Struktur
+  - Phasenliste mit Aktionen Phasen und Trainings
+-->
+
 [← KI-Connectoren](DE-KI-Connectoren-und-Token) · [Inhaltsverzeichnis](Deutsch) · [Weiter: Ernährungsplanung →](DE-Ernaehrungsplanung)
 
 ## Richtige Reihenfolge
@@ -103,4 +109,3 @@ Plan unverändert. Falls angeboten, macht **Rückgängig** die zuletzt angewende
 Änderung rückgängig. Der Verlauf ist über das Verlaufssymbol erreichbar.
 
 [← KI-Connectoren](DE-KI-Connectoren-und-Token) · [Inhaltsverzeichnis](Deutsch) · [Weiter: Ernährungsplanung →](DE-Ernaehrungsplanung)
-

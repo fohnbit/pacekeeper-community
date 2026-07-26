@@ -1,5 +1,7 @@
 # Access, Settings, and Troubleshooting
 
+<!-- screenshot-plan: Mirror the anonymised DE access and settings screenshots in English. -->
+
 [← App controls](EN-App-Controls) · [Contents](English)
 
 ## Managed athletes and sharing
@@ -61,4 +63,3 @@ access or withdraw a pending request.
 Never share passwords, private API keys, or complete access tokens.
 
 [← App controls](EN-App-Controls) · [Contents](English)
-

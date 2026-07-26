@@ -1,5 +1,10 @@
 # Zugriffe, Einstellungen und Fehlerbehebung
 
+<!-- screenshot-plan:
+  - Zugriffe & Freigaben ausschließlich mit anonymisierten Athletendaten
+  - wichtigste Einstellungen
+-->
+
 [← App-Bedienung](DE-App-Bedienung) · [Inhaltsverzeichnis](Deutsch)
 
 ## Betreute Athleten und Freigaben
@@ -64,4 +69,3 @@ Teile niemals Passwörter, private API-Schlüssel oder vollständige
 Zugangstoken.
 
 [← App-Bedienung](DE-App-Bedienung) · [Inhaltsverzeichnis](Deutsch)
-

@@ -1,5 +1,10 @@
 # Ernährungsplanung
 
+<!-- screenshot-plan:
+  - KI-Ernährungsvorschau einer anonymisierten Woche
+  - Bring!-Einkaufslistenaktion ohne private Zutaten
+-->
+
 [← Trainingsplanung](DE-Trainingsplanung) · [Inhaltsverzeichnis](Deutsch) · [Weiter: App-Bedienung →](DE-App-Bedienung)
 
 ## Ernährung wochenweise erzeugen
@@ -61,4 +66,3 @@ kopieren und manuell in eine andere Einkaufsliste einfügen.
 > verbraucht keine PaceKeeper-AI-Token.
 
 [← Trainingsplanung](DE-Trainingsplanung) · [Inhaltsverzeichnis](Deutsch) · [Weiter: App-Bedienung →](DE-App-Bedienung)
-

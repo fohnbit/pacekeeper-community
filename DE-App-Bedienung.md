@@ -1,5 +1,11 @@
 # Dashboard, Athlet und Bedienung
 
+<!-- screenshot-plan:
+  - Dashboard mit Bereitschaftsring und Kennzahlen
+  - Plan-Kalender mit Ansichtsumschaltung
+  - Athletenansicht mit anonymisierten Charts
+-->
+
 [← Ernährungsplanung](DE-Ernaehrungsplanung) · [Inhaltsverzeichnis](Deutsch) · [Weiter: Zugriffe und Einstellungen →](DE-Zugriffe-und-Einstellungen)
 
 ## Hauptnavigation
@@ -99,4 +105,3 @@ Die Symbole können sich zwischen iOS, macOS und Android geringfügig
 unterscheiden.
 
 [← Ernährungsplanung](DE-Ernaehrungsplanung) · [Inhaltsverzeichnis](Deutsch) · [Weiter: Zugriffe und Einstellungen →](DE-Zugriffe-und-Einstellungen)
-

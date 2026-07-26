@@ -1,5 +1,8 @@
 # Claude, ChatGPT, and AI Tokens
 
+<!-- screenshot-plan: Use the corresponding anonymised DE connector captures
+     or capture the same views with the English interface. -->
+
 [← Getting started](EN-Getting-Started) · [Contents](English) · [Next: Training planning →](EN-Training-Planning)
 
 ## Connecting Claude.ai to PaceKeeper AI
@@ -67,4 +70,3 @@ available, subscriptions with a larger monthly token allowance are planned
 through the App Store and Play Store.
 
 [← Getting started](EN-Getting-Started) · [Contents](English) · [Next: Training planning →](EN-Training-Planning)
-

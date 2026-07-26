@@ -1,5 +1,7 @@
 # Nutrition Planning
 
+<!-- screenshot-plan: Mirror the DE nutrition screenshots in English. -->
+
 [← Training planning](EN-Training-Planning) · [Contents](English) · [Next: App controls →](EN-App-Controls)
 
 ## Generate nutrition week by week
@@ -61,4 +63,3 @@ another shopping-list app manually.
 > tokens.
 
 [← Training planning](EN-Training-Planning) · [Contents](English) · [Next: App controls →](EN-App-Controls)
-

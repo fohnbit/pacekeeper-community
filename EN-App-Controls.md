@@ -1,5 +1,7 @@
 # Dashboard, Athlete, and App Controls
 
+<!-- screenshot-plan: Mirror the DE dashboard and athlete screenshots in English. -->
+
 [← Nutrition planning](EN-Nutrition-Planning) · [Contents](English) · [Next: Access and settings →](EN-Access-and-Settings)
 
 ## Main navigation
@@ -96,4 +98,3 @@ blood pressure, steps, weight, body fat, VO₂max, and custom charts.
 Icons may vary slightly between iOS, macOS, and Android.
 
 [← Nutrition planning](EN-Nutrition-Planning) · [Contents](English) · [Next: Access and settings →](EN-Access-and-Settings)
-
