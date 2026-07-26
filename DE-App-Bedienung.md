@@ -18,10 +18,10 @@
 
 | Symbol | Bereich | Bedeutung |
 |---|---|---|
-| 🚩 | **Plan** | Kalender für Trainings, Aktivitäten und Mahlzeiten |
-| 👤 | **Athlet** | Leistungs-, Wellness- und Verlaufsdaten sowie eigene Charts |
-| ▣ | **Dashboard** | Tagesansicht mit vergangenen und kommenden Tagen |
-| ⚙️ | **Einstellungen** | Synchronisierung, KI, Darstellung, Daten und Diagnose |
+| ![Plan](images/icons/plan.png) | **Plan** | Kalender für Trainings, Aktivitäten und Mahlzeiten |
+| ![Athlet](images/icons/athlete.png) | **Athlet** | Leistungs-, Wellness- und Verlaufsdaten sowie eigene Charts |
+| ![Dashboard](images/icons/dashboard.png) | **Dashboard** | Tagesansicht mit vergangenen und kommenden Tagen |
+| ![Einstellungen](images/icons/settings.png) | **Einstellungen** | Synchronisierung, KI, Darstellung, Daten und Diagnose |
 
 Auf Mobilgeräten befindet sich die Navigation unten. Im Querformat oder auf
 größeren Bildschirmen kann sie als Seitenleiste erscheinen.
@@ -43,14 +43,14 @@ Wische den Kopfbereich seitwärts, um Bereitschaftsgründe und weitere
 Wellness-Werte zu sehen. Ein Tipp auf eine Kennzahl öffnet ihre Erklärung und
 den 7-Tage-Verlauf.
 
-| Kürzel | Bedeutung |
-|---|---|
-| HF | Ruhe-Herzfrequenz |
-| HRV | Herzratenvariabilität |
-| CTL | längerfristige Trainingsbelastung bzw. Fitness |
-| ATL | kurzfristige Trainingsbelastung bzw. Ermüdung |
-| TSB | Form; Verhältnis langfristiger zu kurzfristiger Belastung |
-| ↑ / ↓ / → | Wert steigt, fällt oder bleibt stabil |
+| Symbol | Kürzel | Bedeutung |
+|---|---|---|
+| ![Herzfrequenz](images/icons/heart-rate.png) | HF | Ruhe-Herzfrequenz |
+| ![HRV](images/icons/hrv.png) | HRV | Herzratenvariabilität |
+| ![CTL](images/icons/ctl.png) | CTL | längerfristige Trainingsbelastung bzw. Fitness |
+| ![ATL](images/icons/atl.png) | ATL | kurzfristige Trainingsbelastung bzw. Ermüdung |
+| ![TSB](images/icons/tsb.png) | TSB | Form; Verhältnis langfristiger zu kurzfristiger Belastung |
+|  | ↑ / ↓ / → | Wert steigt, fällt oder bleibt stabil |
 
 Grün, Rot und Grau bedeuten günstig, ungünstig oder keine wesentliche
 Änderung. Die genaue Interpretation hängt von der Kennzahl ab.
@@ -89,17 +89,17 @@ Körperfett, VO₂max und eigene Diagramme erscheinen.
 
 | Symbol | Aktion |
 |---|---|
-| ＋ | neuen Eintrag oder neue Aktion anlegen |
-| ✎ | bearbeiten |
-| 🗑 | löschen |
-| ↻ | aktualisieren oder synchronisieren |
-| ★ / Pin | Inhalt im Dashboard anheften |
-| ⧉ | Daten oder Text kopieren |
-| ⤢ | Detail- oder Vollansicht öffnen |
-| ‹ / › | vorheriger oder nächster Zeitraum |
-| ⋮ | weitere Aktionen |
-| Verlaufssymbol | Änderungsverlauf öffnen |
-| Glocke | Status der KI-Warteschlange öffnen |
+| ![Hinzufügen](images/icons/add.png) | neuen Eintrag oder neue Aktion anlegen |
+| ![Bearbeiten](images/icons/edit.png) | bearbeiten |
+| ![Löschen](images/icons/delete.png) | löschen |
+| ![Synchronisieren](images/icons/sync.png) | aktualisieren oder synchronisieren |
+| ![Anheften](images/icons/pin.png) | Inhalt im Dashboard anheften |
+| ![Kopieren](images/icons/copy.png) | Daten oder Text kopieren |
+| ![Vollansicht](images/icons/full-view.png) | Detail- oder Vollansicht öffnen |
+| ![Zurück](images/icons/previous.png) / ![Weiter](images/icons/next.png) | vorheriger oder nächster Zeitraum |
+| ![Weitere Aktionen](images/icons/more.png) | weitere Aktionen |
+| ![Verlauf](images/icons/history.png) | Änderungsverlauf öffnen |
+| ![KI-Warteschlange](images/icons/ai-queue.png) | Status der KI-Warteschlange öffnen |
 
 Die Symbole können sich zwischen iOS, macOS und Android geringfügig
 unterscheiden.

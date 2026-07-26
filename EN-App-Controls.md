@@ -14,10 +14,10 @@
 
 | Icon | Section | Purpose |
 |---|---|---|
-| 🚩 | **Plan** | Calendar for workouts, activities, and meals |
-| 👤 | **Athlete** | Performance, wellness, history, and custom charts |
-| ▣ | **Dashboard** | Daily view with previous and upcoming days |
-| ⚙️ | **Settings** | Synchronisation, AI, appearance, data, and diagnostics |
+| ![Plan](images/icons/plan.png) | **Plan** | Calendar for workouts, activities, and meals |
+| ![Athlete](images/icons/athlete.png) | **Athlete** | Performance, wellness, history, and custom charts |
+| ![Dashboard](images/icons/dashboard.png) | **Dashboard** | Daily view with previous and upcoming days |
+| ![Settings](images/icons/settings.png) | **Settings** | Synchronisation, AI, appearance, data, and diagnostics |
 
 On phones, navigation is shown at the bottom. In landscape or on larger
 screens, it may appear in a sidebar.
@@ -38,14 +38,14 @@ manage sharing, or sign out.
 Swipe the header sideways to see readiness reasons and additional wellness
 values. Tap a metric for an explanation and its seven-day history.
 
-| Abbreviation | Meaning |
-|---|---|
-| HR | Resting heart rate |
-| HRV | Heart-rate variability |
-| CTL | Long-term training load or fitness |
-| ATL | Short-term training load or fatigue |
-| TSB | Form; relationship between long- and short-term load |
-| ↑ / ↓ / → | Value is rising, falling, or stable |
+| Icon | Abbreviation | Meaning |
+|---|---|---|
+| ![Heart rate](images/icons/heart-rate.png) | HR | Resting heart rate |
+| ![HRV](images/icons/hrv.png) | HRV | Heart-rate variability |
+| ![CTL](images/icons/ctl.png) | CTL | Long-term training load or fitness |
+| ![ATL](images/icons/atl.png) | ATL | Short-term training load or fatigue |
+| ![TSB](images/icons/tsb.png) | TSB | Form; relationship between long- and short-term load |
+|  | ↑ / ↓ / → | Value is rising, falling, or stable |
 
 Green, red, and grey indicate favourable, unfavourable, or no material change.
 The exact interpretation depends on the metric.
@@ -83,17 +83,17 @@ blood pressure, steps, weight, body fat, VO₂max, and custom charts.
 
 | Icon | Action |
 |---|---|
-| ＋ | create a new entry or action |
-| ✎ | edit |
-| 🗑 | delete |
-| ↻ | refresh or synchronise |
-| ★ / Pin | pin content to Dashboard |
-| ⧉ | copy data or text |
-| ⤢ | open detail or full view |
-| ‹ / › | previous or next period |
-| ⋮ | more actions |
-| History icon | open change history |
-| Bell | open AI queue status |
+| ![Add](images/icons/add.png) | create a new entry or action |
+| ![Edit](images/icons/edit.png) | edit |
+| ![Delete](images/icons/delete.png) | delete |
+| ![Synchronise](images/icons/sync.png) | refresh or synchronise |
+| ![Pin](images/icons/pin.png) | pin content to Dashboard |
+| ![Copy](images/icons/copy.png) | copy data or text |
+| ![Full view](images/icons/full-view.png) | open detail or full view |
+| ![Previous](images/icons/previous.png) / ![Next](images/icons/next.png) | previous or next period |
+| ![More actions](images/icons/more.png) | more actions |
+| ![History](images/icons/history.png) | open change history |
+| ![AI queue](images/icons/ai-queue.png) | open AI queue status |
 
 Icons may vary slightly between iOS, macOS, and Android.
 
