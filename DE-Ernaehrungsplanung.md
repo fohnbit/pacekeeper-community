@@ -60,9 +60,8 @@ die externe **Bring!**-Übergabe geöffnet werden.
 Falls Bring! nicht verfügbar ist, kannst du die zusammengefassten Zutaten
 kopieren und manuell in eine andere Einkaufsliste einfügen.
 
-> [!NOTE]
-> Für die integrierte Ernährungserstellung werden PaceKeeper-AI-Token
-> verbraucht. Eine Erstellung über Claude oder einen anderen externen Connector
-> verbraucht keine PaceKeeper-AI-Token.
+| ℹ️ **Hinweis** |
+|---|
+| Für die integrierte Ernährungserstellung werden PaceKeeper-AI-Token verbraucht. Eine Erstellung über Claude oder einen anderen externen Connector verbraucht keine PaceKeeper-AI-Token. |
 
 [← Trainingsplanung](DE-Trainingsplanung) · [Inhaltsverzeichnis](Deutsch) · [Weiter: KI-Connectoren und Token →](DE-KI-Connectoren-und-Token)

@@ -18,10 +18,9 @@
 5. Prüfe anschließend im **Dashboard** deine Tagesübersicht und unter **Plan**
    deinen Kalender.
 
-> [!IMPORTANT]
-> Die aus intervals.icu übernommenen Werte sind eine Ausgangsbasis, keine
-> Bestätigung ihrer Richtigkeit. Unvollständige oder falsche Angaben
-> verschlechtern die Qualität späterer Trainings- und Ernährungsvorschläge.
+| ❗ **Wichtig** |
+|---|
+| Die aus intervals.icu übernommenen Werte sind eine Ausgangsbasis, keine Bestätigung ihrer Richtigkeit. Unvollständige oder falsche Angaben verschlechtern die Qualität späterer Trainings- und Ernährungsvorschläge. |
 
 ## Angaben im Einrichtungsassistenten
 

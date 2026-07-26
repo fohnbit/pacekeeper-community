@@ -5,10 +5,9 @@ und Leistungsdaten sowie Ernährungsplanung. Die App synchronisiert sich mit
 **intervals.icu** und kann über die integrierte KI oder externe
 KI-Connectoren unterstützt werden.
 
-> [!WARNING]
-> **Alpha-Version:** PaceKeeper AI befindet sich in aktiver Entwicklung.
-> Funktionen, Symbole und Abläufe können sich ändern. Prüfe KI-Vorschläge immer
-> vor dem Übernehmen.
+| ⚠️ **Alpha-Version** |
+|---|
+| PaceKeeper AI befindet sich in aktiver Entwicklung. Funktionen, Symbole und Abläufe können sich ändern. Prüfe KI-Vorschläge immer vor dem Übernehmen. |
 
 ## Inhaltsverzeichnis
 

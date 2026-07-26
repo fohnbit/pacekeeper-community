@@ -38,10 +38,9 @@ Benutzerdefinierte Claude-Connectoren befinden sich laut Anthropic derzeit in
 einer Beta-Phase. Weitere Details stehen in der
 [offiziellen Claude-Anleitung](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp).
 
-> [!CAUTION]
-> Prüfe bei schreibenden Aktionen Claudes Werkzeugaufruf und danach die
-> Vorschau oder den Änderungsverlauf in PaceKeeper AI. Verbinde ausschließlich
-> die oben genannte Server-Adresse.
+| ⚠️ **Vorsicht** |
+|---|
+| Prüfe bei schreibenden Aktionen Claudes Werkzeugaufruf und danach die Vorschau oder den Änderungsverlauf in PaceKeeper AI. Verbinde ausschließlich die oben genannte Server-Adresse. |
 
 ## Status des ChatGPT-Connectors
 
@@ -68,10 +67,9 @@ ChatGPT-Einrichtungsablauf ergänzt.
 | Claude-Connector | Auftrag in einem Claude-Chat mit aktiviertem PaceKeeper-Connector | werden nicht verbraucht |
 | ChatGPT-Connector | nach Freigabe über ChatGPT | werden nicht verbraucht |
 
-> [!IMPORTANT]
-> Die kostenlose Variante enthält nur einige freie Token für die integrierte
-> KI. Das Kontingent wird jeden Monat erneuert. Den verbleibenden Anteil siehst
-> du im Profilmenü unter **AI-Tokens**.
+| ❗ **Wichtig** |
+|---|
+| Die kostenlose Variante enthält nur einige freie Token für die integrierte KI. Das Kontingent wird jeden Monat erneuert. Den verbleibenden Anteil siehst du im Profilmenü unter **AI-Tokens**. |
 
 Externe Connectoren verbrauchen keine PaceKeeper-AI-Token. Es können jedoch
 Nutzungsgrenzen oder Kosten beim jeweiligen externen Anbieter entstehen.

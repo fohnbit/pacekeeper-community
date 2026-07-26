@@ -14,9 +14,6 @@
 
 ---
 
-> [!WARNING]
-> **Alpha-Version · Alpha version**<br>
-> PaceKeeper AI befindet sich in aktiver Entwicklung. Funktionen und Bedienung
-> können sich ändern. · PaceKeeper AI is under active development. Features and
-> workflows may change.
-
+| ⚠️ **Alpha-Version · Alpha version** |
+|---|
+| PaceKeeper AI befindet sich in aktiver Entwicklung. Funktionen und Bedienung können sich ändern.<br>PaceKeeper AI is under active development. Features and workflows may change. |
