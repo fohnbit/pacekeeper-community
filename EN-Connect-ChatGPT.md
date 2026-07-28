@@ -36,15 +36,19 @@ Recommended first test:
 
 ## Check the current server version
 
-The MCP version currently running on the PaceKeeper server is shown at the top of the web wiki. To check which server your current chat actually reaches, send:
+Copy this complete text into a new chat:
 
-Current value in the web wiki: `{{MCP_SERVER_BUILD_UTC}}`
+> Call `pacekeeper_get_context`.
+>
+> Does this tool's **description** contain a line `Tool list built <A>`?
+>
+> **No** → My tool list is **outdated** and predates this check. Tell me to disconnect and reconnect the connector.
+>
+> **Yes** → Compare `<A>` with `mcp_version` in the response. Equal means current; different means outdated and the connector must be refreshed.
 
-> Call `pacekeeper_get_context` and show me `server_build_utc`.
+The PaceKeeper server currently reports `mcp_version`: `{{MCP_VERSION}}`.
 
-Compare the returned value with the timestamp of the MCP version shown above. If they match, the tool call reaches the current PaceKeeper server. If `server_build_utc` is missing or differs, refresh PaceKeeper AI as described below and start a new chat.
-
-A matching value confirms the current backend. If new tools are still missing, ChatGPT may have cached an older tool list; refresh the plugin and use a new chat.
+If `<A>` is missing or differs from `mcp_version`, refresh the connector as described below. Then fully quit and restart the ChatGPT application and open a new chat.
 
 ## Refresh the connection after a PaceKeeper update
 
@@ -56,8 +60,9 @@ Follow these steps when PaceKeeper AI asks you to refresh after an update or new
 4. Scroll to the **Info** section.
 5. Select **Refresh**.
 6. Wait for the refresh to finish.
-7. Select **Test in chat** and start a new conversation.
-8. Repeat the recommended test prompt.
+7. Fully quit and restart the ChatGPT application.
+8. Select **Test in chat** and start a new conversation.
+9. Repeat the version check from the previous section.
 
 An existing conversation might continue to use the previous version. Always start a new chat after refreshing.
 
@@ -80,7 +85,7 @@ An expired or previously used one-time code cannot be reused.
 - Check that developer mode is enabled in ChatGPT.
 - Check that you entered exactly `https://pacekeeper.icu/mcp`.
 - Generate a new code if the five-minute validity period has expired.
-- After a PaceKeeper update, select **Refresh** in the plugin details.
+- After a PaceKeeper update, select **Refresh** in the plugin details and then fully restart the ChatGPT application.
 - Disconnect and reconnect PaceKeeper AI if an authorisation error remains.
 - Enable PaceKeeper AI in the new chat before submitting a request.
 - Review write actions before confirming them, then verify the result in PaceKeeper AI.

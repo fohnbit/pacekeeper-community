@@ -34,15 +34,19 @@ Der Organisations-Connector ersetzt nicht die persönliche Verbindung jedes Pace
 
 ## Aktuelle Server-Version prüfen
 
-Die aktuell auf dem PaceKeeper-Server laufende MCP-Version wird oben im Web-Wiki angezeigt. Um zu prüfen, welchen Server dein aktueller Chat tatsächlich erreicht, sende in Claude:
+Kopiere diesen Text vollständig in einen neuen Chat:
 
-Aktueller Wert im Web-Wiki: `{{MCP_SERVER_BUILD_UTC}}`
+> Rufe `pacekeeper_get_context` auf.
+>
+> Enthält die **Beschreibung** dieses Tools eine Zeile `Tool list built <A>`?
+>
+> **Nein** → Meine Tool-Liste ist **veraltet** und stammt von vor diesem Prüfverfahren. Sag mir, dass ich den Connector trennen und neu verbinden soll.
+>
+> **Ja** → Vergleiche `<A>` mit `mcp_version` aus der Antwort. Gleich bedeutet aktuell, unterschiedlich bedeutet veraltet und der Connector muss aktualisiert werden.
 
-> Ruf `pacekeeper_get_context` ab und zeig mir `server_build_utc`.
+Aktuell auf dem PaceKeeper-Server läuft `mcp_version`: `{{MCP_VERSION}}`.
 
-Vergleiche den zurückgegebenen Wert mit dem Zeitstempel der oben angezeigten MCP-Version. Stimmen beide überein, erreicht der Werkzeugaufruf den aktuellen PaceKeeper-Server. Fehlt `server_build_utc` oder weicht der Wert ab, erneuere die Verbindung wie im nächsten Abschnitt beschrieben und öffne danach einen neuen Chat.
-
-Ein übereinstimmender Wert bestätigt den aktuellen Backend-Stand. Wenn trotzdem neue Werkzeuge fehlen, kann Claude noch eine ältere Werkzeugliste gespeichert haben; entferne den Connector dann wie unten beschrieben, füge ihn erneut hinzu und verwende einen neuen Chat.
+Fehlt `<A>` oder unterscheidet sich `<A>` von `mcp_version`, öffne die Verwaltung von **PaceKeeper AI** und klicke auf **Refresh**. Öffne danach einen neuen Chat und wiederhole den Test.
 
 ## Verbindung nach einem Update erneuern
 
@@ -54,17 +58,14 @@ Eine erneute Verbindung ist sinnvoll oder erforderlich, wenn:
 - der Connector mit einer alten oder falschen Server-Adresse angelegt wurde,
 - Anthropic oder PaceKeeper die Connector-Metadaten geändert hat.
 
-Anthropic bietet für Custom Connectors derzeit keine allgemeine Bearbeitung vorhandener Connector-Einstellungen an. Zum Aktualisieren wird der Connector entfernt und neu hinzugefügt:
+Für eine aktualisierte Tool-Liste genügt in Claude normalerweise **Refresh**:
 
 1. Öffne in Claude **Anpassen/Customize → Connectors**.
-2. Öffne bei **PaceKeeper AI** das Drei-Punkte-Menü und wähle **Remove/Entfernen**.
-3. Bei Team oder Enterprise entfernt beziehungsweise aktualisiert der Owner zuerst den Organisations-Connector, wenn dessen Server-Konfiguration betroffen ist.
-4. Füge PaceKeeper AI erneut mit `https://www.pacekeeper.icu/mcp` hinzu.
-5. Öffne PaceKeeper AI unter **Einstellungen → KI-Assistent verbinden** und erzeuge einen neuen sechsstelligen Code.
-6. Schließe die neue Autorisierung mit diesem Code ab.
-7. Aktiviere den Connector in einem neuen Claude-Chat und teste zunächst eine lesende Anfrage.
+2. Öffne bei **PaceKeeper AI** das Drei-Punkte-Menü beziehungsweise die Verwaltung.
+3. Klicke auf **Refresh** und warte, bis die Aktualisierung abgeschlossen ist.
+4. Öffne einen neuen Chat, aktiviere PaceKeeper AI und wiederhole den Versions-Test.
 
-Ein alter Code oder eine alte Autorisierung soll nicht wiederverwendet werden. Ist nur die persönliche Anmeldung abgelaufen, kann je nach Claude-Oberfläche bereits **Connect** genügen; sobald Werkzeuge oder Connector-Metadaten veraltet sind, ist Entfernen und erneutes Hinzufügen der sichere Weg.
+Nur wenn **Refresh** nicht angeboten wird oder ein Autorisierungsfehler bestehen bleibt, entferne den Connector, füge ihn erneut mit `https://www.pacekeeper.icu/mcp` hinzu und autorisiere ihn mit einem neuen Einmalcode aus der PaceKeeper-App.
 
 ## Verbindung testen und Fehler beheben
 
@@ -72,7 +73,7 @@ Ein alter Code oder eine alte Autorisierung soll nicht wiederverwendet werden. I
 2. Frage beispielsweise: „Was ist mein nächstes Training?“
 3. Prüfe bei „Connector nicht verfügbar“, ob er für diesen Chat aktiviert ist.
 4. Prüfe bei Autorisierungsfehlern, ob der Einmalcode noch gültig ist; erzeuge andernfalls einen neuen.
-5. Entferne den Connector und füge ihn erneut hinzu, wenn Claude weiterhin alte oder fehlende Werkzeuge anzeigt.
+5. Klicke auf **Refresh**, wenn Claude weiterhin alte oder fehlende Werkzeuge anzeigt; entferne und verbinde ihn nur dann neu, wenn Refresh nicht hilft.
 6. Verbinde niemals eine ähnlich aussehende oder abweichende Server-Adresse.
 
 Prüfe bei schreibenden Aktionen Claudes Werkzeugaufruf und danach die Vorschau oder den Änderungsverlauf in PaceKeeper AI.

@@ -36,15 +36,19 @@ Empfohlener erster Test:
 
 ## Aktuelle Server-Version prüfen
 
-Die aktuell auf dem PaceKeeper-Server laufende MCP-Version wird oben im Web-Wiki angezeigt. Um zu prüfen, welchen Server dein aktueller Chat tatsächlich erreicht, sende in ChatGPT:
+Kopiere diesen Text vollständig in einen neuen Chat:
 
-Aktueller Wert im Web-Wiki: `{{MCP_SERVER_BUILD_UTC}}`
+> Rufe `pacekeeper_get_context` auf.
+>
+> Enthält die **Beschreibung** dieses Tools eine Zeile `Tool list built <A>`?
+>
+> **Nein** → Meine Tool-Liste ist **veraltet** und stammt von vor diesem Prüfverfahren. Sag mir, dass ich den Connector trennen und neu verbinden soll.
+>
+> **Ja** → Vergleiche `<A>` mit `mcp_version` aus der Antwort. Gleich bedeutet aktuell, unterschiedlich bedeutet veraltet und der Connector muss aktualisiert werden.
 
-> Ruf `pacekeeper_get_context` ab und zeig mir `server_build_utc`.
+Aktuell auf dem PaceKeeper-Server läuft `mcp_version`: `{{MCP_VERSION}}`.
 
-Vergleiche den zurückgegebenen Wert mit dem Zeitstempel der oben angezeigten MCP-Version. Stimmen beide überein, erreicht der Werkzeugaufruf den aktuellen PaceKeeper-Server. Fehlt `server_build_utc` oder weicht der Wert ab, aktualisiere PaceKeeper AI wie im nächsten Abschnitt beschrieben und öffne danach einen neuen Chat.
-
-Ein übereinstimmender Wert bestätigt den aktuellen Backend-Stand. Wenn trotzdem neue Werkzeuge fehlen, kann ChatGPT noch eine ältere Werkzeugliste gespeichert haben; führe dann ebenfalls **Aktualisieren** aus und verwende einen neuen Chat.
+Fehlt `<A>` oder unterscheidet sich `<A>` von `mcp_version`, aktualisiere den Connector wie im nächsten Abschnitt beschrieben. Beende danach die ChatGPT-Software vollständig, starte sie neu und öffne einen neuen Chat.
 
 ## Verbindung nach einem PaceKeeper-Update aktualisieren
 
@@ -57,8 +61,9 @@ Führe diese Schritte aus, wenn PaceKeeper AI dich nach einem Update dazu auffor
 5. Scrolle auf der Verwaltungsseite ganz nach unten.
 6. Klicke auf **Aktualisieren**.
 7. Warte, bis die Aktualisierung abgeschlossen ist.
-8. Wähle anschließend **Im Chat testen** und beginne eine neue Unterhaltung.
-9. Wiederhole den empfohlenen Testaufruf.
+8. Beende die ChatGPT-Software vollständig und starte sie neu.
+9. Wähle anschließend **Im Chat testen** und beginne eine neue Unterhaltung.
+10. Wiederhole den Versions-Test aus dem vorherigen Abschnitt.
 
 Eine bereits laufende Unterhaltung kann noch den vorherigen Stand verwenden. Öffne deshalb nach einer Aktualisierung immer einen neuen Chat.
 
@@ -81,7 +86,7 @@ Ein abgelaufener oder bereits verwendeter Einmalcode kann nicht erneut verwendet
 - Prüfe, ob der Entwicklermodus in ChatGPT aktiviert ist.
 - Prüfe, ob du exakt `https://pacekeeper.icu/mcp` eingetragen hast.
 - Erzeuge einen neuen Code, wenn die fünf Minuten abgelaufen sind.
-- Öffne nach einem PaceKeeper-Update unter **Persönlich** bei **PaceKeeper AI** über den Drei-Punkte-Button **Verwalten** und klicke ganz unten auf **Aktualisieren**.
+- Öffne nach einem PaceKeeper-Update unter **Persönlich** bei **PaceKeeper AI** über den Drei-Punkte-Button **Verwalten**, klicke ganz unten auf **Aktualisieren** und starte danach die ChatGPT-Software vollständig neu.
 - Trenne und verbinde PaceKeeper AI erneut, wenn ein Autorisierungsfehler bestehen bleibt.
 - Aktiviere PaceKeeper AI im neuen Chat, bevor du eine Anfrage stellst.
 - Prüfe schreibende Aktionen vor der Bestätigung und kontrolliere das Ergebnis anschließend in PaceKeeper AI.

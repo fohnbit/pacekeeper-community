@@ -34,15 +34,19 @@ The organisation connector does not replace the personal connection for each Pac
 
 ## Check the current server version
 
-The MCP version currently running on the PaceKeeper server is shown at the top of the web wiki. To check which server your current chat actually reaches, send:
+Copy this complete text into a new chat:
 
-Current value in the web wiki: `{{MCP_SERVER_BUILD_UTC}}`
+> Call `pacekeeper_get_context`.
+>
+> Does this tool's **description** contain a line `Tool list built <A>`?
+>
+> **No** → My tool list is **outdated** and predates this check. Tell me to disconnect and reconnect the connector.
+>
+> **Yes** → Compare `<A>` with `mcp_version` in the response. Equal means current; different means outdated and the connector must be refreshed.
 
-> Call `pacekeeper_get_context` and show me `server_build_utc`.
+The PaceKeeper server currently reports `mcp_version`: `{{MCP_VERSION}}`.
 
-Compare the returned value with the timestamp of the MCP version shown above. If they match, the tool call reaches the current PaceKeeper server. If `server_build_utc` is missing or differs, reconnect as described below and start a new chat.
-
-A matching value confirms the current backend. If new tools are still missing, Claude may have cached an older tool list; remove and add the connector again, then use a new chat.
+If `<A>` is missing or differs from `mcp_version`, open the **PaceKeeper AI** connector management and click **Refresh**. Then open a new chat and repeat the check.
 
 ## Reconnect after an update
 
@@ -53,23 +57,20 @@ Reconnect when:
 - new PaceKeeper functions are missing after an update,
 - the connector was added with an old or incorrect address.
 
-To refresh the custom connector, remove it and add it again:
+To refresh the tool list, Claude normally only needs **Refresh**:
 
 1. In Claude, open **Customize → Connectors**.
-2. Open the three-dot menu for **PaceKeeper AI** and select **Remove**.
-3. With Team or Enterprise, the Owner first updates the organisation connector if necessary.
-4. Add PaceKeeper AI again using `https://www.pacekeeper.icu/mcp`.
-5. In PaceKeeper AI, open **Settings → Connect AI assistant** and generate a new six-digit code.
-6. Complete the new authorisation with this code.
-7. Enable the connector in a new Claude chat and begin with a read request.
+2. Open the three-dot menu or management view for **PaceKeeper AI**.
+3. Click **Refresh** and wait for it to finish.
+4. Open a new chat, enable PaceKeeper AI, and repeat the version check.
 
-An old one-time code cannot be reused. If only your personal sign-in has expired, selecting **Connect** again might be sufficient. If new functions remain unavailable, removing and adding the connector again is the reliable refresh process.
+Only if **Refresh** is unavailable or an authorisation error remains, remove the connector, add it again with `https://www.pacekeeper.icu/mcp`, and authorise it using a new one-time code from the PaceKeeper app.
 
 ## If the connection does not work
 
 - Check that PaceKeeper AI is enabled for the current conversation.
 - Generate a new code if the five-minute validity period has expired.
-- Remove and add the connector again if Claude continues to show outdated or missing functions.
+- Click **Refresh** if Claude continues to show outdated or missing functions; remove and reconnect it only if Refresh does not help.
 - Use only `https://www.pacekeeper.icu/mcp` as the server address.
 - Review Claude's action before confirming a write, then verify the result in PaceKeeper AI.
 
