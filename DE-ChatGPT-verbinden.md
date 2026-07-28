@@ -34,6 +34,18 @@ Empfohlener erster Test:
 
 > Verwende PaceKeeper AI Dev und zeige mir mein nächstes geplantes Training.
 
+## Aktuelle Server-Version prüfen
+
+Die aktuell auf dem PaceKeeper-Server laufende MCP-Version wird oben im Web-Wiki angezeigt. Um zu prüfen, welchen Server dein aktueller Chat tatsächlich erreicht, sende in ChatGPT:
+
+Aktueller Wert im Web-Wiki: `{{MCP_SERVER_BUILD_UTC}}`
+
+> Ruf `pacekeeper_get_context` ab und zeig mir `server_build_utc`.
+
+Vergleiche den zurückgegebenen Wert mit dem Zeitstempel der oben angezeigten MCP-Version. Stimmen beide überein, erreicht der Werkzeugaufruf den aktuellen PaceKeeper-Server. Fehlt `server_build_utc` oder weicht der Wert ab, aktualisiere PaceKeeper AI wie im nächsten Abschnitt beschrieben und öffne danach einen neuen Chat.
+
+Ein übereinstimmender Wert bestätigt den aktuellen Backend-Stand. Wenn trotzdem neue Werkzeuge fehlen, kann ChatGPT noch eine ältere Werkzeugliste gespeichert haben; führe dann ebenfalls **Aktualisieren** aus und verwende einen neuen Chat.
+
 ## Verbindung nach einem PaceKeeper-Update aktualisieren
 
 Führe diese Schritte aus, wenn PaceKeeper AI dich nach einem Update dazu auffordert oder neue Funktionen in ChatGPT noch nicht angezeigt werden:

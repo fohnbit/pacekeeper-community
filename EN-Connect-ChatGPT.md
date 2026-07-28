@@ -34,6 +34,18 @@ Recommended first test:
 
 > Use PaceKeeper AI Dev and show me my next planned workout.
 
+## Check the current server version
+
+The MCP version currently running on the PaceKeeper server is shown at the top of the web wiki. To check which server your current chat actually reaches, send:
+
+Current value in the web wiki: `{{MCP_SERVER_BUILD_UTC}}`
+
+> Call `pacekeeper_get_context` and show me `server_build_utc`.
+
+Compare the returned value with the timestamp of the MCP version shown above. If they match, the tool call reaches the current PaceKeeper server. If `server_build_utc` is missing or differs, refresh PaceKeeper AI as described below and start a new chat.
+
+A matching value confirms the current backend. If new tools are still missing, ChatGPT may have cached an older tool list; refresh the plugin and use a new chat.
+
 ## Refresh the connection after a PaceKeeper update
 
 Follow these steps when PaceKeeper AI asks you to refresh after an update or new functions are not yet shown in ChatGPT:

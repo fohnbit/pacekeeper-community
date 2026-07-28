@@ -32,6 +32,18 @@ The PaceKeeper AI connector lets Claude read authorised PaceKeeper data and, aft
 
 The organisation connector does not replace the personal connection for each PaceKeeper account.
 
+## Check the current server version
+
+The MCP version currently running on the PaceKeeper server is shown at the top of the web wiki. To check which server your current chat actually reaches, send:
+
+Current value in the web wiki: `{{MCP_SERVER_BUILD_UTC}}`
+
+> Call `pacekeeper_get_context` and show me `server_build_utc`.
+
+Compare the returned value with the timestamp of the MCP version shown above. If they match, the tool call reaches the current PaceKeeper server. If `server_build_utc` is missing or differs, reconnect as described below and start a new chat.
+
+A matching value confirms the current backend. If new tools are still missing, Claude may have cached an older tool list; remove and add the connector again, then use a new chat.
+
 ## Reconnect after an update
 
 Reconnect when:
