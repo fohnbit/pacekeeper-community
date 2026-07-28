@@ -54,17 +54,19 @@ If `<A>` is missing or differs from `mcp_version`, refresh the connector as desc
 
 Follow these steps when PaceKeeper AI asks you to refresh after an update or new functions are not yet shown in ChatGPT:
 
-1. Open the [Plugins](https://chatgpt.com/plugins) page in ChatGPT.
-2. Select **PaceKeeper AI Dev**.
-3. Open the plugin details.
-4. Scroll to the **Info** section.
-5. Select **Refresh**.
-6. Wait for the refresh to finish.
-7. Fully quit and restart the ChatGPT application.
-8. Select **Test in chat** and start a new conversation.
-9. Repeat the version check from the previous section.
+1. In the ChatGPT desktop software or app, open **Settings → Plugins**.
+2. Select the **PaceKeeper AI** connector that you created yourself.
+3. Open the menu on its **Connected** status.
+4. Select **Reconnect**.
+5. In the following prompt, select **Manage in ChatGPT**. This opens the management page in your web browser.
+6. Scroll all the way to the bottom in the browser.
+7. Select **Refresh**.
+8. Wait until ChatGPT confirms that the refresh has completed successfully.
+9. Close the browser window.
+10. Fully quit and restart the ChatGPT software or app.
+11. Open a new chat, enable PaceKeeper AI, and repeat the version check from the previous section.
 
-An existing conversation might continue to use the previous version. Always start a new chat after refreshing.
+Selecting **Reconnect** alone is not sufficient to load a new tool list: you must also confirm the refresh in the browser and fully restart the ChatGPT app afterwards. An existing conversation may continue to use the previous version.
 
 ## Authorise the connection again
 
@@ -85,7 +87,7 @@ An expired or previously used one-time code cannot be reused.
 - Check that developer mode is enabled in ChatGPT.
 - Check that you entered exactly `https://pacekeeper.icu/mcp`.
 - Generate a new code if the five-minute validity period has expired.
-- After a PaceKeeper update, select **Refresh** in the plugin details and then fully restart the ChatGPT application.
+- Open **Settings → Plugins → PaceKeeper AI**, select **Reconnect** under **Connected**, open **Manage in ChatGPT**, select **Refresh** at the bottom of the browser page, and then fully restart the ChatGPT app.
 - Disconnect and reconnect PaceKeeper AI if an authorisation error remains.
 - Enable PaceKeeper AI in the new chat before submitting a request.
 - Review write actions before confirming them, then verify the result in PaceKeeper AI.

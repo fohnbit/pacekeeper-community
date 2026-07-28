@@ -54,18 +54,19 @@ Fehlt `<A>` oder unterscheidet sich `<A>` von `mcp_version`, aktualisiere den Co
 
 Führe diese Schritte aus, wenn PaceKeeper AI dich nach einem Update dazu auffordert oder neue Funktionen in ChatGPT noch nicht angezeigt werden:
 
-1. Öffne in ChatGPT die Seite [Plugins](https://chatgpt.com/plugins).
-2. Wechsle in den Bereich **Persönlich** neben **Öffentlich**.
-3. Wähle **PaceKeeper AI** aus.
-4. Öffne den **Drei-Punkte-Button** und wähle **Verwalten**.
-5. Scrolle auf der Verwaltungsseite ganz nach unten.
-6. Klicke auf **Aktualisieren**.
-7. Warte, bis die Aktualisierung abgeschlossen ist.
-8. Beende die ChatGPT-Software vollständig und starte sie neu.
-9. Wähle anschließend **Im Chat testen** und beginne eine neue Unterhaltung.
-10. Wiederhole den Versions-Test aus dem vorherigen Abschnitt.
+1. Öffne in der ChatGPT-Software beziehungsweise App **Einstellungen → Plugins**.
+2. Wähle den von dir selbst angelegten Connector **PaceKeeper AI** aus.
+3. Öffne bei dessen Status **Verbunden** das Auswahlmenü.
+4. Klicke auf **Erneut verbinden**.
+5. Klicke in der folgenden Abfrage auf **In ChatGPT verwalten**. Dadurch öffnet sich die Verwaltung im Webbrowser.
+6. Scrolle im Browser ganz nach unten.
+7. Klicke auf **Aktualisieren**.
+8. Warte unbedingt, bis ChatGPT die erfolgreiche Aktualisierung bestätigt.
+9. Schließe anschließend das Browserfenster.
+10. Beende die ChatGPT-Software beziehungsweise App vollständig und starte sie neu.
+11. Öffne einen neuen Chat, aktiviere PaceKeeper AI und wiederhole den Versions-Test aus dem vorherigen Abschnitt.
 
-Eine bereits laufende Unterhaltung kann noch den vorherigen Stand verwenden. Öffne deshalb nach einer Aktualisierung immer einen neuen Chat.
+Nur **Erneut verbinden** zu wählen reicht für eine neue Toolliste nicht aus: Die Aktualisierung muss zusätzlich im Browser bestätigt und die ChatGPT-App danach vollständig neu gestartet werden. Eine bereits laufende Unterhaltung kann weiterhin den vorherigen Stand verwenden.
 
 ## Verbindung erneut autorisieren
 
@@ -86,7 +87,7 @@ Ein abgelaufener oder bereits verwendeter Einmalcode kann nicht erneut verwendet
 - Prüfe, ob der Entwicklermodus in ChatGPT aktiviert ist.
 - Prüfe, ob du exakt `https://pacekeeper.icu/mcp` eingetragen hast.
 - Erzeuge einen neuen Code, wenn die fünf Minuten abgelaufen sind.
-- Öffne nach einem PaceKeeper-Update unter **Persönlich** bei **PaceKeeper AI** über den Drei-Punkte-Button **Verwalten**, klicke ganz unten auf **Aktualisieren** und starte danach die ChatGPT-Software vollständig neu.
+- Öffne **Einstellungen → Plugins → PaceKeeper AI**, wähle bei **Verbunden** die Aktion **Erneut verbinden**, öffne **In ChatGPT verwalten**, klicke im Browser ganz unten auf **Aktualisieren** und starte danach die ChatGPT-App vollständig neu.
 - Trenne und verbinde PaceKeeper AI erneut, wenn ein Autorisierungsfehler bestehen bleibt.
 - Aktiviere PaceKeeper AI im neuen Chat, bevor du eine Anfrage stellst.
 - Prüfe schreibende Aktionen vor der Bestätigung und kontrolliere das Ergebnis anschließend in PaceKeeper AI.
