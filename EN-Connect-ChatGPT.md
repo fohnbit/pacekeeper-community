@@ -66,6 +66,22 @@ Follow these steps when PaceKeeper AI asks you to refresh after an update or new
 10. Fully quit and restart the ChatGPT software or app.
 11. Open a new chat, enable PaceKeeper AI, and repeat the version check from the previous section.
 
+**1. Select “Reconnect” under “Connected”:**
+
+![ChatGPT PaceKeeper AI plugin – Reconnect](images/chatgpt/plugin-reconnect.png)
+
+**2. “Manage in ChatGPT” opens the management page in the browser:**
+
+![PaceKeeper AI – Manage in ChatGPT](images/chatgpt/manage-in-chatgpt.png)
+
+**3. Open the plugin management page and scroll all the way down:**
+
+![ChatGPT plugin management for PaceKeeper AI](images/chatgpt/plugin-management.png)
+
+**4. Select “Refresh” in the “Info” section:**
+
+![ChatGPT PaceKeeper AI plugin – Refresh](images/chatgpt/plugin-refresh.png)
+
 Selecting **Reconnect** alone is not sufficient to load a new tool list: you must also confirm the refresh in the browser and fully restart the ChatGPT app afterwards. An existing conversation may continue to use the previous version.
 
 ## Authorise the connection again

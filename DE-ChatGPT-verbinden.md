@@ -66,6 +66,22 @@ Führe diese Schritte aus, wenn PaceKeeper AI dich nach einem Update dazu auffor
 10. Beende die ChatGPT-Software beziehungsweise App vollständig und starte sie neu.
 11. Öffne einen neuen Chat, aktiviere PaceKeeper AI und wiederhole den Versions-Test aus dem vorherigen Abschnitt.
 
+**1. Bei „Verbunden“ auf „Erneut verbinden“ klicken:**
+
+![ChatGPT Plugin PaceKeeper AI – Erneut verbinden](images/chatgpt/plugin-reconnect.png)
+
+**2. „In ChatGPT verwalten“ öffnet die Verwaltung im Browser:**
+
+![PaceKeeper AI – In ChatGPT verwalten](images/chatgpt/manage-in-chatgpt.png)
+
+**3. Die Plugin-Verwaltung im Browser öffnen und ganz nach unten scrollen:**
+
+![ChatGPT Plugin-Verwaltung für PaceKeeper AI](images/chatgpt/plugin-management.png)
+
+**4. Im Bereich „Info“ auf „Aktualisieren“ klicken:**
+
+![ChatGPT Plugin PaceKeeper AI – Aktualisieren](images/chatgpt/plugin-refresh.png)
+
 Nur **Erneut verbinden** zu wählen reicht für eine neue Toolliste nicht aus: Die Aktualisierung muss zusätzlich im Browser bestätigt und die ChatGPT-App danach vollständig neu gestartet werden. Eine bereits laufende Unterhaltung kann weiterhin den vorherigen Stand verwenden.
 
 ## Verbindung erneut autorisieren
