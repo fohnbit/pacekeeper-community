@@ -10,9 +10,8 @@ Nutrition plans should generally be generated **one calendar week at a time**.
 This makes it easier to account for working hours, upcoming workouts, shopping,
 and short-term changes.
 
-Use **AI actions → Nutrition**, or ask Claude through the connector to create
-nutrition for a specific week. This is also intended to work through ChatGPT
-after approval.
+Use **AI actions → Nutrition**, or ask Claude or ChatGPT through an enabled
+PaceKeeper connection to create nutrition for a specific week.
 
 Before applying a suggestion, check:
 

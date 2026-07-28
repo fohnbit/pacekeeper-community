@@ -44,7 +44,7 @@ access or withdraw a pending request.
   optionally upload them to intervals.icu.
 - **Refresh profile:** clears local profile caches and downloads the data
   again.
-- **Connect AI assistant:** connects Claude or, later, ChatGPT.
+- **Connect AI assistant:** generates the one-time code for connecting ChatGPT or Claude.ai.
 - **AI settings:** customises integrated AI actions.
 - **Trend, Appearance, and Chart settings:** changes time ranges, the interface,
   and custom charts.

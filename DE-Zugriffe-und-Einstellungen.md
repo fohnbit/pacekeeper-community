@@ -48,7 +48,7 @@ kann ihren Zugriff ebenfalls beenden oder eine offene Anfrage zurückziehen.
   kann sie optional zu intervals.icu übertragen.
 - **Profil aktualisieren:** leert lokale Profil-Zwischenspeicher und lädt die
   Daten neu.
-- **KI-Assistent verbinden:** verbindet Claude oder später ChatGPT.
+- **KI-Assistent verbinden:** erzeugt den Einmalcode für die Verbindung mit ChatGPT oder Claude.ai.
 - **KI-Einstellungen:** passt integrierte KI-Aktionen an.
 - **Trend, Darstellung und Chart-Einstellungen:** verändert Zeiträume,
   Oberfläche und eigene Diagramme.

@@ -84,7 +84,8 @@ vorhandenen Plans zu erstellen oder zu überarbeiten. Beispiel:
 > Prüfe meinen Plan, berücksichtige alle Events und erstelle passende
 > Trainingsphasen bis zu meinem A-Ziel.
 
-Nach der Freigabe ist derselbe externe Ablauf auch mit ChatGPT vorgesehen.
+Mit einer verbundenen und im Chat aktivierten PaceKeeper-Verbindung kann
+derselbe externe Ablauf auch mit ChatGPT verwendet werden.
 
 ## Trainings je Phase erzeugen
 
@@ -99,7 +100,7 @@ Wähle bei **jeder Phase** die Aktion **✨ Trainings**. Kontrolliere danach:
 
 Wiederhole den Vorgang, bis alle Phasen mit konkreten Trainingseinheiten
 gefüllt sind. Trainings können durch die integrierte KI oder extern durch
-Claude – später auch ChatGPT – erstellt und angepasst werden.
+Claude oder ChatGPT erstellt und angepasst werden.
 
 ## Änderungen prüfen
 

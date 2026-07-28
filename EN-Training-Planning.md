@@ -77,7 +77,8 @@ of the existing plan. Example:
 > Review my plan, consider every event, and create suitable training phases
 > through my A goal.
 
-The same external workflow is intended for ChatGPT after approval.
+The same external workflow can be used with ChatGPT when PaceKeeper AI is
+connected and enabled for the conversation.
 
 ## Generate workouts for every phase
 
@@ -91,8 +92,7 @@ Select **✨ Trainings** on **each phase**, then check:
 - vacations, illness, injury, and races
 
 Repeat until every phase contains individual sessions. Workouts can be created
-and adjusted by the integrated AI or externally through Claude and, later,
-ChatGPT.
+and adjusted by the integrated AI or externally through Claude or ChatGPT.
 
 ## Review changes
 

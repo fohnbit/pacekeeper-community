@@ -15,7 +15,9 @@ KI-Connectoren unterstützt werden.
 2. [Dashboard, Athlet und Bedienung](DE-App-Bedienung)
 3. [Trainingsplan, Events, Phasen und Trainings](DE-Trainingsplanung)
 4. [Ernährungsplanung und Einkaufsliste](DE-Ernaehrungsplanung)
-5. [Claude, ChatGPT und KI-Token](DE-KI-Connectoren-und-Token)
+5. [KI-Connectoren und Token](DE-KI-Connectoren-und-Token)
+   - [ChatGPT mit PaceKeeper AI verbinden](DE-ChatGPT-verbinden)
+   - [Claude.ai verbinden und aktualisieren](DE-Claude-ai-verbinden)
 6. [Zugriffe, Einstellungen und Fehlerbehebung](DE-Zugriffe-und-Einstellungen)
 
 ## Empfohlene Reihenfolge beim ersten Start
@@ -25,6 +27,6 @@ KI-Connectoren unterstützt werden.
 3. Den ersten Plan mit Zielen, Verfügbarkeit und Events anlegen.
 4. Zuerst die Planphasen und danach die Trainings je Phase erzeugen.
 5. Ernährung am besten jeweils für eine Kalenderwoche planen.
-6. Bei Bedarf Claude als externen KI-Assistenten verbinden.
+6. Bei Bedarf ChatGPT oder Claude.ai als externen KI-Assistenten verbinden.
 
 [Zur Sprachauswahl](Home)

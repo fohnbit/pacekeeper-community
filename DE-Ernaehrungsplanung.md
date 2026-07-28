@@ -13,9 +13,9 @@ Ernährungspläne sollten in der Regel **für jeweils eine Kalenderwoche** erzeu
 werden. Dadurch lassen sich Arbeitszeiten, anstehende Trainings, Einkauf und
 kurzfristige Änderungen besser berücksichtigen.
 
-Nutze **KI-Aktionen → Ernährung** oder bitte Claude über den Connector, die
-Ernährung für eine konkrete Kalenderwoche zu erstellen. Nach der Freigabe ist
-dies auch mit ChatGPT vorgesehen.
+Nutze **KI-Aktionen → Ernährung** oder bitte Claude beziehungsweise ChatGPT
+über eine aktivierte PaceKeeper-Verbindung, die Ernährung für eine konkrete
+Kalenderwoche zu erstellen.
 
 Prüfe vor dem Übernehmen insbesondere:
 
