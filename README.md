@@ -1,15 +1,17 @@
 # PaceKeeper Community
 
-Dieses Repository bündelt die öffentliche PaceKeeper-Dokumentation und die
-öffentliche Rückmeldung über GitHub Issues.
+Dieses Repository ist die öffentliche Anlaufstelle für PaceKeeper-Dokumentation
+und Rückmeldungen.
 
-- Die deutsch- und englischsprachigen Wiki-Seiten liegen als Markdown-Dateien
-  im Stammverzeichnis und werden zusätzlich im Mitgliederbereich von
-  `pacekeeper.icu` gerendert.
-- Fehlerberichte, Funktionswünsche und allgemeines Feedback werden als GitHub
-  Issues verwaltet.
+- [PaceKeeper Wiki](https://github.com/fohnbit/pacekeeper-community/wiki)
+- [Deutsche Hilfe](https://github.com/fohnbit/pacekeeper-community/wiki/Deutsch)
+- [English help](https://github.com/fohnbit/pacekeeper-community/wiki/English)
+- [Fehler und Vorschläge](https://github.com/fohnbit/pacekeeper-community/issues)
+
+Die deutsch- und englischsprachige Dokumentation liegt im echten GitHub-Wiki
+und wird aus derselben Quelle zusätzlich im geschützten Mitgliederbereich von
+`pacekeeper.icu` gerendert. Dieses Hauptrepository enthält deshalb nur die
+Startseite und die Vorlagen für GitHub Issues.
+
 - Interne Kontodaten, Athlete IDs, Zugangsdaten und andere persönliche Daten
   gehören weder in Issues noch in die Dokumentation.
-
-Die Website verwendet dieses Repository nur als öffentliche Inhalts- und
-Supportquelle. Anmeldung und Kontozuordnung bleiben im PaceKeeper-Server.
