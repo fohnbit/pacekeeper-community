@@ -39,13 +39,14 @@ Empfohlener erster Test:
 Führe diese Schritte aus, wenn PaceKeeper AI dich nach einem Update dazu auffordert oder neue Funktionen in ChatGPT noch nicht angezeigt werden:
 
 1. Öffne in ChatGPT die Seite [Plugins](https://chatgpt.com/plugins).
-2. Wähle **PaceKeeper AI Dev** aus.
-3. Öffne die Plugindetails.
-4. Scrolle zum Abschnitt **Info**.
-5. Klicke auf **Aktualisieren**.
-6. Warte, bis die Aktualisierung abgeschlossen ist.
-7. Wähle anschließend **Im Chat testen** und beginne eine neue Unterhaltung.
-8. Wiederhole den empfohlenen Testaufruf.
+2. Wechsle in den Bereich **Persönlich** neben **Öffentlich**.
+3. Wähle **PaceKeeper AI** aus.
+4. Öffne den **Drei-Punkte-Button** und wähle **Verwalten**.
+5. Scrolle auf der Verwaltungsseite ganz nach unten.
+6. Klicke auf **Aktualisieren**.
+7. Warte, bis die Aktualisierung abgeschlossen ist.
+8. Wähle anschließend **Im Chat testen** und beginne eine neue Unterhaltung.
+9. Wiederhole den empfohlenen Testaufruf.
 
 Eine bereits laufende Unterhaltung kann noch den vorherigen Stand verwenden. Öffne deshalb nach einer Aktualisierung immer einen neuen Chat.
 
@@ -68,7 +69,7 @@ Ein abgelaufener oder bereits verwendeter Einmalcode kann nicht erneut verwendet
 - Prüfe, ob der Entwicklermodus in ChatGPT aktiviert ist.
 - Prüfe, ob du exakt `https://pacekeeper.icu/mcp` eingetragen hast.
 - Erzeuge einen neuen Code, wenn die fünf Minuten abgelaufen sind.
-- Klicke nach einem PaceKeeper-Update in den Plugindetails auf **Aktualisieren**.
+- Öffne nach einem PaceKeeper-Update unter **Persönlich** bei **PaceKeeper AI** über den Drei-Punkte-Button **Verwalten** und klicke ganz unten auf **Aktualisieren**.
 - Trenne und verbinde PaceKeeper AI erneut, wenn ein Autorisierungsfehler bestehen bleibt.
 - Aktiviere PaceKeeper AI im neuen Chat, bevor du eine Anfrage stellst.
 - Prüfe schreibende Aktionen vor der Bestätigung und kontrolliere das Ergebnis anschließend in PaceKeeper AI.
